@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aym</title>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Outfit:wght@700&display=swap" rel="stylesheet">
     <style>
         body, html {
             height: 100%;
             margin: 0;
             font-family: Arial, sans-serif;
-            background-color: #df1b3f;
-            color: white;
+            background-color: #f2f3f4;
+            color: #004f71;
             display: flex;
             flex-direction: column;
         }
@@ -27,20 +27,22 @@
             box-sizing: border-box;
         }
         h1, h2 {
-            font-family: 'Raleway', sans-serif;
             font-weight: 800;
             margin: 0;
         }
         h1 {
+            font-family: 'Outfit', sans-serif;
             font-size: 6em;
             margin-bottom: 0.1em;
         }
         h2 {
-            font-size: 2em;
+            margin-top: 0.7em;
+            font-family: 'Merriweather', serif;
+            font-size: 1.8em;
         }
         .contact-bar {
+            color: white;
             background-color: #36454F;
-            padding: 15px 20px;
             text-align: left;
             font-size: 0.9em;
         }
@@ -49,22 +51,26 @@
             margin: 0 auto;
             width: 100%;
             box-sizing: border-box;
+            padding: 15px 20px;
         }
-        @media (min-width: 768px) {
-            .content, .contact {
-                padding-left: 50px;
-                padding-right: 50px;
-            }
+        .header {
+            max-width: 600px;            
+        }
+        .header img {
+            height: 100px;
+            margin-right: 20px;
         }
     </style>
 </head>
 <body>
     <div class="content">
-        <h1>Aym</h1>
-        <h2>Melting clocks whisper to unborn galaxies: our algorithms dream in liquid light <small>(Claude)</small></h2>
+        <div class="header">
+            <img src="Logo, Full, Horizontal, Transparent.svg" alt="Logo">
+            <h2>Revolutionizing Patient Mobility with Wearables & AI</h2>
+        </div>
     </div>
     <div class="contact-bar">
-        <div class="contact">	&#x69;&#x20;&#x6e;&#x20;&#x66;&#x20;&#x6f;&#x20;&#x40;&#x20;&#x61;&#x20;&#x79;&#x20;&#x6d;&#x20;&#x6c;&#x20;&#x61;&#x20;&#x62;&#x20;&#x73;&#x20;&#x2e;&#x20;&#x63;&#x20;&#x6f;&#x20;&#x6d;
+        <div class="contact">&#x69;&#x20;&#x6e;&#x20;&#x66;&#x20;&#x6f;&#x20;&#x40;&#x20;&#x61;&#x20;&#x79;&#x20;&#x6d;&#x20;&#x6c;&#x20;&#x61;&#x20;&#x62;&#x20;&#x73;&#x20;&#x2e;&#x20;&#x63;&#x20;&#x6f;&#x20;&#x6d;&#x20;
         </div>
     </div>
 </body>
