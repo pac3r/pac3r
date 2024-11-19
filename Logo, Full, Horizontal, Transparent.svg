@@ -16,11 +16,7 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-   <style type="text/css">
-      @import url(&apos;https://fonts.googleapis.com/css2?family=Outfit:wght@700&amp;display=swap&apos;);
-   </style>   
-   <sodipodi:namedview
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
      id="namedview1"
      pagecolor="#ffffff"
      bordercolor="#000000"
@@ -64,8 +60,12 @@
        position="130.90345,78.934501"
        orientation="0,-1"
        id="guide5"
-       inkscape:locked="false" /></sodipodi:namedview><defs
-     id="defs1"><inkscape:path-effect
+       inkscape:locked="false" /></sodipodi:namedview>
+	<defs id="defs1">
+	   <style type="text/css">
+		  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700');
+	   </style>
+	<inkscape:path-effect
        effect="fillet_chamfer"
        id="path-effect6"
        is_visible="true"
