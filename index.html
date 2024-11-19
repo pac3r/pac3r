@@ -57,8 +57,15 @@
             max-width: 600px;            
         }
         .header img {
-            height: 100px;
+            width: 300px;
             margin-right: 20px;
+        }
+        /* When screen is too small, scale down the logo: 300px + margins */
+        @media (max-width: 340px) {
+            .header img {
+                width: 100%;
+                height: auto;
+            }
         }
     </style>
 </head>
